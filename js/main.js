@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
   ======================================================= */
 const event = {
     title: "Wedding Ceremony of Mai Anh and Hai",
-    startDate: "20260424T235959Z", // YYYYMMDDTHHmmssZ (UTC)
+    startDate: "20260425T235959Z", // YYYYMMDDTHHmmssZ (UTC)
     endDate: "20260425T235959Z",
     location: "Cho Buom, Yet Kieu, Hai Phong city, Vietnam",
     description: "May God bless this couple and all the attendees who've made the time to come",
