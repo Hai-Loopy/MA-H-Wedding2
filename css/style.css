@@ -661,8 +661,8 @@ section {
 .card section.info .countdown .counter-boxes .count-box {
     width: 68px !important;           /* ← Change this to make smaller */
     height: 68px !important;
-    background-color: 	#FFB6C1 !important;     /* Soft sakura pink */
-    border: 2px solid 	#FFB6C1 !important;
+    background-color: 	#FFE6EA !important;     /* Soft sakura pink */
+    border: 2px solid 	#FFE6EA !important;
     box-shadow: 0 6px 15px rgba(255, 107, 157, 0.4) !important;
 }
 
