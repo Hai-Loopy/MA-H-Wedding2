@@ -659,23 +659,23 @@ section {
 
 /* Sakura Pink Color for the boxes */
 .card section.info .countdown .counter-boxes .count-box {
-    width: 65px !important;           /* ← Change this to make smaller */
-    height: 65px !important;
-    background-color: 	#FFF5EE !important;     /* Soft sakura pink */
-    border: 2px solid 	#FFF5EE !important;
+    width: 68px !important;           /* ← Change this to make smaller */
+    height: 68px !important;
+    background-color: 	#D8BFD8 !important;     /* Soft sakura pink */
+    border: 2px solid 	#D8BFD8 !important;
     box-shadow: 0 6px 15px rgba(255, 107, 157, 0.4) !important;
 }
 
 /* Numbers (white for good contrast on pink) */
 .card section.info .countdown .counter-boxes .count-box h1 {
-    color: #ffffff !important;
+    color: #9F2B68 !important;
     text-shadow: 0 2px 4px rgba(0,0,0,0.25) !important;
     font-size: 1.9rem !important;     /* Smaller numbers */
 }
 
 /* Labels (Ngày, Giờ, etc.) */
 .card section.info .countdown .counter-boxes .count-box span {
-    color: #fff0f5 !important;
+    color: #9F2B68 !important;
     font-size: 0.75rem !important;
 }
 
