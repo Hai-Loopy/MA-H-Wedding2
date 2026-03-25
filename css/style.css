@@ -652,14 +652,14 @@ section {
 }
 /* ==================== COUNTDOWN POSITION & SAKURA COLOR ==================== */
 .card section.info .countdown {
-    margin-top: 150px !important;     /* ← Change this number to move it lower */
-    width: 100%;
+    margin-top: 250px !important;     /* ← Change this number to move it lower */
+    width: 50%;
     padding: 0 15px;
 }
 
 /* Sakura Pink Color for the boxes */
 .card section.info .countdown .counter-boxes .count-box {
-    background-color: #ff9eb8 !important;     /* Soft sakura pink */
+    background-color: #F8C8DC !important;     /* Soft sakura pink */
     border: 2px solid #ff6b9d !important;
     box-shadow: 0 6px 15px rgba(255, 107, 157, 0.4) !important;
 }
