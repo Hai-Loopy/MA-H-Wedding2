@@ -650,29 +650,30 @@ section {
     width: 100%;
     z-index: 500;
 }
-/* Move countdown lower + Sakura pink theme */
+/* ==================== COUNTDOWN POSITION & SAKURA COLOR ==================== */
 .card section.info .countdown {
-    margin-top: 85px;           /* ← Increase this to move it lower (50px = little lower, 80px = more lower) */
+    margin-top: 100px !important;     /* ← Change this number to move it lower */
     width: 100%;
+    padding: 0 15px;
 }
 
-/* Sakura pink color for the countdown boxes */
+/* Sakura Pink Color for the boxes */
 .card section.info .countdown .counter-boxes .count-box {
-    background-color: #ffb7c5;        /* Soft sakura pink */
-    box-shadow: 0 5px 15px rgba(255, 183, 197, 0.4);
-    border: 2px solid #ff9eb8;        /* Optional lighter border for more sakura feel */
+    background-color: #ff9eb8 !important;     /* Soft sakura pink */
+    border: 2px solid #ff6b9d !important;
+    box-shadow: 0 6px 15px rgba(255, 107, 157, 0.4) !important;
 }
 
-/* Text color inside the boxes - dark for good contrast on pink */
+/* Numbers (white for good contrast on pink) */
 .card section.info .countdown .counter-boxes .count-box h1 {
-    color: #4a2c3b;                   /* Deep rose / dark pinkish tone */
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.25) !important;
 }
 
+/* Labels (Ngày, Giờ, etc.) */
 .card section.info .countdown .counter-boxes .count-box span {
-    color: #6b3d52;                   /* Slightly darker for the labels (Ngày, Giờ, etc.) */
+    color: #fff0f5 !important;
 }
-
 
 
 /*============================================================================================
