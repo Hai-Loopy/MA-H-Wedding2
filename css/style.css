@@ -652,7 +652,7 @@ section {
 }
 /* Move countdown lower + Sakura pink theme */
 .card section.info .countdown {
-    margin-top: 60px;           /* ← Increase this to move it lower (50px = little lower, 80px = more lower) */
+    margin-top: 85px;           /* ← Increase this to move it lower (50px = little lower, 80px = more lower) */
     width: 100%;
 }
 
