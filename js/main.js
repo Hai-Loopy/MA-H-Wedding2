@@ -16,32 +16,22 @@ document.getElementById("toggle-content").addEventListener("click", function () 
     const card = document.querySelector(".card");
     const audioPlayer = document.getElementById("audio-player");
 
-    // 1. Hide overlay with fade
+    // Start music immediately when envelope is clicked
+    if (audioPlayer) {
+        audioPlayer.muted = false;
+        audioPlayer.volume = 0.8;
+        audioPlayer.play().catch(() => {});
+    }
+
+    // Visual transition
     wrapper.classList.add("hidden");
 
-    // 2. Wait for fade transition to finish, then show card
     wrapper.addEventListener("transitionend", function handler() {
         wrapper.style.display = "none";
         card.style.display = "block";
-        wrapper.removeEventListener("transitionend", handler); // Clean up
+        wrapper.removeEventListener("transitionend", handler);
     }, { once: true });
-
-    // 3. Play music - with proper error handling and unmute
-    if (audioPlayer) {
-        audioPlayer.muted = false;           // Make sure it's not muted
-        audioPlayer.volume = 0.7;            // Optional: set comfortable volume
-
-        audioPlayer.play()
-            .then(() => {
-                console.log("✅ Music started playing successfully");
-            })
-            .catch((error) => {
-                console.log("❌ Autoplay blocked:", error);
-                // Fallback: show a "Play Music" button if needed
-            });
-    }
 });
-
 // Extra help for mobile autoplay
 document.addEventListener('click', function unlockAudio() {
     const audio = document.getElementById("audio-player");
