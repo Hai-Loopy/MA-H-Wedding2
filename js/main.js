@@ -12,6 +12,7 @@
 // });
 
 // Envelope click → open card + start music
+// Envelope click → open card + start music
 document.getElementById("toggle-content").addEventListener("click", function () {
     const wrapper = document.querySelector(".wrapper");
     const card = document.querySelector(".card");
